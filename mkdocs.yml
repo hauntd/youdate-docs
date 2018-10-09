@@ -1,0 +1,67 @@
+# Project info
+site_name: YouDate Documentation
+site_description: Documentation for YouDate script
+site_author: hauntd
+site_url: https://youdate.hauntd.me/documentation
+
+use_directory_urls: false
+prebuild_index: true
+
+# Theme options
+theme:
+  name: 'material'
+  include_search_page: false
+  search_index_only: true
+  logo:
+    icon: favorite
+  palette:
+    primary: indigo
+    accent: pink
+
+# Copyright
+copyright: "Copyright &copy; 2018 YouDate"
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Overview: ./index.md
+  - Installation and Configuration:
+      - Requirements: ./requirements.md
+      - Files upload: ./files.md
+      - Installation: ./installation.md
+      - Cron setup: ./cron.md
+  - Upgrade: ./upgrade.md
+  - Administration:
+      - Overview: ./administration-overview.md
+      - Profile fields: ./administration-profile-fields.md
+  - Customization:
+      - Themes: ./custom-themes.md
+  - Troubleshooting:
+      - F.A.Q.: ./troubleshooting-faq.md
+      - Support: ./troubleshooting-support.md
