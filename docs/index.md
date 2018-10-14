@@ -7,6 +7,7 @@
 Core features and possibilities: 
 
 * Browse users nearby or find them in your city 
+* Encounters
 * User profiles, photos 
 * Custom profile fields editor 
 * Photo moderation 
