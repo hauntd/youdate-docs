@@ -35,7 +35,7 @@ The next step is to create a config file. This action will verify configuration 
     
     `https://youdate.local/admin`.
     
-    **Mailer transport** - method to deliver mails. SMTP is recommended (see screenshot). In case when SMTP or Sendmail are failing to deliver e-mails, try `Mail transport`.
+    **Mailer transport** - method to deliver mails. SMTP is recommended (see screenshot). In case when SMTP or Sendmail are failing to deliver e-mails, try `PHP Mail transport`.
     
     **Facebook App ID and Secret** - required for Facebook Login. Visit <a href="https://developers.facebook.com/">developers.facebook.com</a>, follow the manuals, create an app and get the credentials.
     URI for OAuth redirection should be like this:

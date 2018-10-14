@@ -62,6 +62,8 @@ nav:
       - Profile fields: ./administration-profile-fields.md
   - Customization:
       - Themes: ./custom-themes.md
+      - Access: ./custom-access.md
+      - Data: ./custom-data.md
   - Troubleshooting:
       - F.A.Q.: ./troubleshooting-faq.md
       - Support: ./troubleshooting-support.md

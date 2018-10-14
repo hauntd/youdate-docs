@@ -10,9 +10,9 @@ YouDate supports two types of themes:
 !!! info "Info"
     YouDate script comes with `custom` theme which is an extended theme (from `youdate`; demo).
 
-### Extending theme
+### Starter theme
 
-Let's say you want to customize `youdate` theme. Create a directory inside `content/themes` called `mydate`.
+YouDate comes with extended theme called `mydate` (since v1.4). It's a starting point for theme customization.
 Files and directories structure is:
 
 ``` sh
@@ -20,7 +20,8 @@ Files and directories structure is:
 ├─ content/                            # All your content
 │  └─ themes/                          # Themes
 |     └─ youdate/                      # Default theme
-|     └─ mydate/                       # Your theme directory
+|     └─ custom/                       # Customized theme (example)
+|     └─ mydate/                       # Your theme directory (you should edit this one)
 |        └─ components/                # Theme components
 |           └─ ThemeBootstrap.php      # Theme bootstrap class
 |           └─ ThemeSettings.php       # Theme settings class
@@ -51,13 +52,24 @@ namespace mydate\components;
 
 use yii\base\BootstrapInterface;
 
+/**
+ * @author Alexander Kononenko <contact@hauntd.me>
+ * @package mydate\components
+ */
 class ThemeBootstrap extends \youdate\components\ThemeBootstrap implements BootstrapInterface
 {
+    /**
+     * @param \yii\base\Application $app
+     */
     public function bootstrap($app)
     {
         parent::bootstrap($app);
+
+        // your customization code goes here
+        // ...
     }
 }
+
 ```
 
 `ThemeSettings.php` contents:
@@ -69,6 +81,10 @@ namespace mydate\components;
 
 use Yii;
 
+/**
+ * @author Alexander Kononenko <contact@hauntd.me>
+ * @package mydate\components
+ */
 class ThemeSettings extends \youdate\components\ThemeSettings
 {
     /**
@@ -77,8 +93,9 @@ class ThemeSettings extends \youdate\components\ThemeSettings
     public function getSettings()
     {
         $settings = [
-            // your custom settings here
-            // see `content/themes/youdate/components/ThemeSettings.php for reference
+            // your custom settings
+            // see `content/themes/youdate/components/ThemeSettings.php
+            // ...
         ];
 
         return array_merge($settings, parent::getSettings());
