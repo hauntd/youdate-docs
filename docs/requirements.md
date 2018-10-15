@@ -21,4 +21,6 @@ To install YouDate script, you need:
 !!! info "Tip"
     YouDate will work without SSL certificate, but it's highly recommended to use one (besides, OAuth authorization via Facebook/Twitter/etc requires SSL encryption). 
     
+    `.htaccess` example for `https`: [config](./https.md)
+    
     [Free LetsEncrypt certificate](https://letsencrypt.org/getting-started/) is a good starting point for your web-server.
