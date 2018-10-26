@@ -1,6 +1,6 @@
 ### Files structure
 
-Script source files are in `Source/youdate-1.4.zip` file. The structure of the project is:
+Script source files are in `Source/youdate-1.5.zip` file. The structure of the project is:
 
 ``` sh
 .
@@ -27,6 +27,6 @@ Script source files are in `Source/youdate-1.4.zip` file. The structure of the p
     
 ### Upload
 
-Upload all the files (including hidden files like `.env` or `.htaccess`) from the `Source/youdate-1.4.zip` archive to the root directory of your website location (often called as `public_html`).
+Upload all the files (including hidden files like `.env` or `.htaccess`) from the `Source/youdate-1.5.zip` archive to the root directory of your website location (often called as `public_html`).
 
 [![Files](./images/files.png)](./images/files.png)
