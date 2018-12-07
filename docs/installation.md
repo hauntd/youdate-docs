@@ -33,7 +33,7 @@ The next step is to create a config file. This action will verify configuration 
 
     **Admin URL** - administration area URL. If set to **"admin"**, then your administration URL will be like: 
     
-    `https://youdate.local/admin`.
+    `https://youdate.local/admin`. Please note that `dashboard` prefix is reserved and can't be used.
     
     **Mailer transport** - method to deliver mails. SMTP is recommended (see screenshot). In case when SMTP or Sendmail are failing to deliver e-mails, try `PHP Mail transport`.
     

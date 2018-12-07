@@ -4,7 +4,7 @@ By default script does not show error details (they are hidden from users). You 
 
 1. Turn on debug in `.env` file: set **`APP_DEBUG = 1`**.
 
-2. Find the log file `application/runtime/logs/app.log`. Your error will be at the end of the file. Also you can create a [ticket](https://github.com/hauntd/youdate-support/issues) and attach that file.
+2. Find the log file `application/runtime/logs/app.log`. Your error will be at the end of the file. Also you can create a [ticket](https://youdate.hauntd.me/forum/t/general) and attach that file.
 
 ---
 

@@ -10,6 +10,7 @@ Core features and possibilities:
 * Encounters
 * User profiles, photos 
 * Custom profile fields editor 
+* Custom sex/gender options
 * Photo moderation 
 * Connections: likes, mutual likes, guests 
 * Messaging 
