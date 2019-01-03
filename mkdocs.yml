@@ -62,7 +62,6 @@ nav:
       - Overview: ./administration-overview.md
       - Profile fields: ./administration-profile-fields.md
       - Gifts: ./administration-gifts.md
-      - Plugins: ./administration-plugins.md
   - Customization:
       - Themes: ./custom-themes.md
       - Access: ./custom-access.md
