@@ -14,11 +14,13 @@ Core features and possibilities:
 * Photo moderation 
 * Connections: likes, mutual likes, guests 
 * Messaging 
+* Gifts (multiple categories support)
 * Premium features like raising up in search or incognito mode, prioritized messages 
 * Administration area 
 * Reports system 
 * Blocks system 
-* Responsive retina template 
+* Responsive retina template
+* Plugins system 
 * Theme customization (create your own theme or extend from existing one) 
 * Languages support: english (by default), spanish, italian, german, russian, french 
 * Language editor: add your own languages in admin area 

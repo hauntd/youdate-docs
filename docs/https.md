@@ -21,5 +21,19 @@ Yet it's highly recommended to turn on redirection (http to https).
     Deny from all
 </FilesMatch>
 
+<IfModule mod_expires.c>
+  Header set cache-control: public
+  ExpiresActive on
+  ExpiresByType font/ttf      "access plus 1 month"
+  ExpiresByType font/woff     "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  <FilesMatch "\.(ttf|otf|eot|svg)$" >
+    SetOutputFilter DEFLATE
+  </FilesMatch>
+</IfModule>
+
 Options All -Indexes
 ```

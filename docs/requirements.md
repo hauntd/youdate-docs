@@ -3,7 +3,7 @@
 To install YouDate script, you need:
 
 * Web-server: Apache 2.0 or higher
-* PHP 7.0 or higher
+* PHP **7.1** or higher
 * MySQL 5.5 or higher
 * PDO PHP extension (enabled by default)
 * Mbstring PHP Extension

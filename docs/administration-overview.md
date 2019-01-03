@@ -53,6 +53,10 @@ Also, you have an option to reset pages (restore all page files from the current
 
 **Payment** settings includes currency options, Stripe and PayPal integration params (api keys/secrets).
 
+[![Payments Setup](./images/payments.png)](./images/payments.png)
+
+[![Payments Currencies](./images/payments2.png)](./images/payments2.png)
+
 **Prices** settings for premium, boost features and their duration.
 
 **Cached data** allows you to flush app's cached data and compiled assets.
