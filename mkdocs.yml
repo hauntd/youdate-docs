@@ -19,7 +19,7 @@ theme:
     accent: pink
 
 # Copyright
-copyright: "Copyright &copy; 2018 YouDate"
+copyright: "Copyright &copy; 2019 YouDate"
 
 # Extensions
 markdown_extensions:

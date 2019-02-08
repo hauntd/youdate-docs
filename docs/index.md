@@ -2,13 +2,14 @@
 
 [![Codecanyon URL](./images/590x300.jpg)](https://codecanyon.net/item/youdate-dating-script/22474999)
 
-**YouDate** is a dating script powered by PHP framework Yii 2.0. 
+**YouDate** is a dating script powered by PHP framework Yii 2.0.16 
 
 Core features and possibilities: 
 
 * Browse users nearby or find them in your city 
 * Encounters
-* User profiles, photos 
+* User profiles, photos
+* Private photos
 * Custom profile fields editor 
 * Custom sex/gender options
 * Photo moderation 
@@ -20,9 +21,10 @@ Core features and possibilities:
 * Reports system 
 * Blocks system 
 * Responsive retina template
-* Plugins system 
-* Theme customization (create your own theme or extend from existing one) 
-* Languages support: english (by default), spanish, italian, german, russian, french 
+* Plugins system (with marketplace)
+* Theme customization (create your own theme or extend from existing one)
+* RTL support (main theme) 
+* Languages support: English (by default), Arabic, Czech, French, German, Italian, Russian, Spanish 
 * Language editor: add your own languages in admin area 
 
 ### Online documentation
