@@ -2,7 +2,7 @@
 
 [![Codecanyon URL](./images/590x300.jpg)](https://codecanyon.net/item/youdate-dating-script/22474999)
 
-**YouDate** is a dating script powered by PHP framework Yii 2.0.16 
+**YouDate** is a dating script powered by PHP framework Yii 2.0.19
 
 Core features and possibilities: 
 

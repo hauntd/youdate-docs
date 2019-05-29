@@ -52,11 +52,11 @@ markdown_extensions:
 nav:
   - Overview: ./index.md
   - Installation and Configuration:
-      - Requirements: ./requirements.md
-      - Files upload: ./files.md
-      - Installation: ./installation.md
-      - Cron setup: ./cron.md
-      - HTTPS: ./https.md
+      - 1. Requirements: ./requirements.md
+      - 2. Files upload: ./files.md
+      - 3. Installation: ./installation.md
+      - 4. Cron setup: ./cron.md
+      - 5. HTTPS: ./https.md
   - Upgrade: ./upgrade.md
   - Administration:
       - Overview: ./administration-overview.md

@@ -1,5 +1,7 @@
-Contact e-mail: [contact@hauntd.me](mailto:contact@hauntd.me)
+Contact e-mail (installation problems, bug reports): [contact@hauntd.me](mailto:contact@hauntd.me)
 
-Forum: [https://youdate.hauntd.me/forum](https://youdate.hauntd.me/forum)
+!!! note "Found a bug?"
 
-Support on Codecanyon: [https://github.com/hauntd/youdate-support/issues](https://github.com/hauntd/youdate-support/issues)
+    Attach your log file `application/runtime/logs/app.log` or copy error message from **Admin > Logs**.
+    
+    *Note:* before sending a bug report, make sure that all script [requirements](requirements.html) are met
