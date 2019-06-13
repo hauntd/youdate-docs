@@ -8,6 +8,9 @@ YouDate requires three CRON commands: two for common tasks (**hourly, daily**) a
 
 Cron commands for hourly/daily tasks and queue processing are:
    
+!!! note "Warning"
+    These paths are examples, you should specify the correct path to the script
+   
 ```sh
 30 * * * * /path/to/youdate/application/yii cron/hourly >/dev/null 2>&1
 0 18 * * * /path/to/youdate/application/yii cron/daily >/dev/null 2>&1               
@@ -58,6 +61,12 @@ if (in_array($action, $availableCommands)) {
     die("$action not supported");
 }
 ```
+
+Then you need to execute this script periodically. For example, you can use [EasyCron](https://www.easycron.com/?ref=139872) for this.
+
+Detailed documentation located here: 
+
+https://www.easycron.com/cron-job-tutorials/how-to-set-up-cron-job-for-youdate-dating-script
                    
 ### Better queue processing (*recommended*)
        

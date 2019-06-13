@@ -1,3 +1,9 @@
+# Installation
+
+You can install YouDate script in two ways: by using web-installer or manually.
+
+## Web-Installer (recommended)
+
 ### Requirements check
 
 After uploading files to your web-server/hosting, open your website in the browser. 
@@ -49,4 +55,19 @@ The next step is to create a config file. This action will verify configuration 
 
 Fill the form, click **Finish** button. Script is almost ready to use. Next step is to configure [cron](./cron.md) commands.
 
+## Manual installation
+
+1. Create a database for YouDate script
+2. Import one by one these SQL files:
+    * `Files/youdate-1.9-manual-installation.sql` 
+    * `Files/countries.sql` 
+    * `Files/geodata.sql`
+3. Open your script directory, find config template `.env-example` and rename it to `.env`
+4. Edit `.env` file: set database credentials, define mailer configuration, social auth credentials etc.
+5. Make sure that these script directories are writable:
+    * `application/runtime`
+    * `content/params`
+    * `content/images`
+    * `content\photos`
+    * `content\cache`
 

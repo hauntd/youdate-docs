@@ -10,10 +10,10 @@ Then open your website or visit administration area. Application will install da
 
 #### Upgrade to 1.9
 
-1. Follow the upgrade procedure described above. Then you need to import additional SQL dump, using any preferred MySQL client (phpMyAdmin, HeidiSQL, Sequel Pro or any other).
-
-Files to import: `Source/countries.sql`, `Source/geodata.sql`.
-
+1. Follow the upgrade procedure described above. Then you need to import additional SQL dump files (phpMyAdmin, HeidiSQL, Sequel Pro or any other, that support SQL import).
+Files to import: 
+    * `Source/countries.sql`
+    * `Source/geodata.sql`
 2. Add this line to your `.env` config file:
 
 ```
