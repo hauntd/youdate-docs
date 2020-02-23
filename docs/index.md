@@ -10,6 +10,7 @@ Core features and possibilities:
 * Encounters
 * User profiles, photos
 * Private photos
+* Public and private groups
 * Custom profile fields editor 
 * Custom sex/gender options
 * Photo moderation 
@@ -20,6 +21,7 @@ Core features and possibilities:
 * Administration area 
 * Reports system 
 * Blocks system 
+* News system
 * Responsive retina template
 * Plugins system (with marketplace)
 * Theme customization (create your own theme or extend from existing one)
@@ -32,6 +34,6 @@ Core features and possibilities:
 
 Main package (from Codecanyon) comes with these compiled docs. 
 
-Online version is available here: [https://youdate.hauntd.me/documentation](https://youdate.hauntd.me/documentation)
+Online version is available here: [https://youdate.website/documentation](https://youdate.website/documentation)
 
 Documentation repository: [https://github.com/hauntd/youdate-docs](https://github.com/hauntd/youdate-docs)

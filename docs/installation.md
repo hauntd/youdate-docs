@@ -59,7 +59,7 @@ Fill the form, click **Finish** button. Script is almost ready to use. Next step
 
 1. Create a database for YouDate script
 2. Import one by one these SQL files:
-    * `Files/youdate-1.9-manual-installation.sql` 
+    * `Files/youdate-manual-installation.sql` 
     * `Files/countries.sql` 
     * `Files/geodata.sql`
 3. Open your script directory, find config template `.env-example` and rename it to `.env`
@@ -68,6 +68,6 @@ Fill the form, click **Finish** button. Script is almost ready to use. Next step
     * `application/runtime`
     * `content/params`
     * `content/images`
-    * `content\photos`
-    * `content\cache`
+    * `content/photos`
+    * `content/cache`
 

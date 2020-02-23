@@ -1,8 +1,8 @@
 Support center: https://youdate.website/support
 
-1. Sign in using your Envato account (OAuth2, similar to "Sign in with Facebook" button)
+1. Sign in using your Envato account
 
-2. YouDate will check your purchase code. Otherwise, you'll need to enter your purchase code manually.
+2. YouDate will check your purchase code. Otherwise, you'll need to enter your purchase code manually
 
 3. Create a ticket
 
