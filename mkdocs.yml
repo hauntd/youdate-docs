@@ -58,7 +58,8 @@ nav:
       - 4. Cron setup: ./cron.md
       - 5. HTTPS: ./https.md
       - 6. Additional services: ./services.md
-      - 7. Fortumo integration: ./payment-fortumo.md
+  - Integrations:
+      - Fortumo.com: ./payment-fortumo.md
   - Upgrade: ./upgrade.md
   - Administration:
       - Overview: ./administration-overview.md
