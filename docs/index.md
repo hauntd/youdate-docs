@@ -17,7 +17,8 @@ Core features and possibilities:
 * Connections: likes, mutual likes, guests 
 * Messaging, attachments (photos)
 * Gifts (multiple categories support)
-* Premium features like raising up in search or incognito mode, prioritized messages 
+* Premium features like raising up in search or incognito mode, prioritized messages
+* Payment integration (Stripe, PayPal, Fortumo, Robokassa) 
 * Administration area 
 * Reports system 
 * Blocks system 
