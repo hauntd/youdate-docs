@@ -35,11 +35,11 @@ You need to setup a Web SDK service.
 !!! Important danger
     **Payment URL** must end with ```/balance/fortumo```. 
     
-    For example: https://youdate.local/balance/fortumo
+    For example: https://youdate.test/balance/fortumo
     
     **Redirect URL** must end with ```/balance/fortumo-succcess```. 
     
-    For example: https://youdate.local/balance/fortumo-success
+    For example: https://youdate.test/balance/fortumo-success
 
     
 [![Fortumo Service #6](./images/fortumoService6.png)](./images/fortumoService6.png)

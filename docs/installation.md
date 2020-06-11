@@ -10,7 +10,7 @@ After uploading files to your web-server/hosting, open your website in the brows
 
 !!! note "Website URL"
 
-    In this and the following examples it is `https://youdate.local`.
+    In this and the following examples it is `https://youdate.test`.
 
 You will see the initial state of the installation - requirements check page. 
 
@@ -39,19 +39,19 @@ The next step is to create a config file. This action will verify configuration 
 
     **Admin URL** - administration area URL. If set to **"admin"**, then your administration URL will be like: 
     
-    `https://youdate.local/admin`. Please note that `dashboard` prefix is reserved and can't be used.
+    `https://youdate.test/admin`. Please note that `dashboard` prefix is reserved and can't be used.
     
     **Mailer transport** - method to deliver mails. SMTP is recommended (see screenshot). In case when SMTP or Sendmail are failing to deliver e-mails, try `PHP Mail transport`.
     
     **Facebook App ID and Secret** - required for Facebook Login. Visit <a href="https://developers.facebook.com/">developers.facebook.com</a>, follow the manuals, create an app and get the credentials.
     URI for OAuth redirection should be like this:
      
-    `https://youdate.local/auth/facebook`
+    `https://youdate.test/auth/facebook`
 
     **Twitter Consumer Key and Secret** - required for Twitter Login. Visit <a href="https://developer.twitter.com/">developer.twitter.com</a>, follow the manuals, create an app and get the credentials.
     URI for OAuth redirection should be like this: 
     
-    `https://youdate.local/auth/twitter`
+    `https://youdate.test/auth/twitter`
 
 Fill the form, click **Finish** button. Script is almost ready to use. Next step is to configure [cron](./cron.md) commands.
 
@@ -70,4 +70,6 @@ Fill the form, click **Finish** button. Script is almost ready to use. Next step
     * `content/images`
     * `content/photos`
     * `content/cache`
-
+6. Default login credentials are:
+    * Username: **admin**
+    * Password: **adminpassword**

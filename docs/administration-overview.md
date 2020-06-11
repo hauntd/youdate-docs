@@ -1,7 +1,7 @@
 ### Access
 
 To access the administration area of your website, find a link called "Administration" in the header menu 
-or use the administrator's URL that was entered in the installer (default is `admin`, so it will be like `https://youdate.local/admin`).
+or use the administrator's URL that was entered in the installer (default is `admin`, so it will be like `https://youdate.test/admin`).
 
 !!! info "Info"
     To find out which URL is used, check your `.env` config file and find **`ADMIN_PREFIX`** key.

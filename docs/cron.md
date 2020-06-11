@@ -23,9 +23,9 @@ For this case, you can use a file named `cron.php` (see below). Also you should 
 Example: `CRON_SECRET` is set to *mysecret*, so the cron command will look like this:
 
 ```sh
-30 * * * * /path/to/usr/bin/wget -O /dev/null https://youdate.local/cron.php?action=cron/hourly&secret=mysecret
-0 18 * * * /path/to/usr/bin/wget -O /dev/null https://youdate.local/cron.php?action=cron/daily&secret=mysecret
-* * * * * /path/to/usr/bin/wget -O /dev/null https://youdate.local/cron.php?action=queue/run&secret=mysecret
+30 * * * * /path/to/usr/bin/wget -O /dev/null https://youdate.test/cron.php?action=cron/hourly&secret=mysecret
+0 18 * * * /path/to/usr/bin/wget -O /dev/null https://youdate.test/cron.php?action=cron/daily&secret=mysecret
+* * * * * /path/to/usr/bin/wget -O /dev/null https://youdate.test/cron.php?action=queue/run&secret=mysecret
 ```
 
 ```php
