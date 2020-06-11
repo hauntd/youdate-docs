@@ -1,0 +1,41 @@
+.md-header {
+    height: 3rem;
+}
+.md-header-nav {
+    height: 3rem;
+}
+.md-header-nav__title {
+    line-height: 3rem;
+}
+.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg,
+.md-header-nav__button.md-logo img, .md-header-nav__button.md-logo svg {
+    width: 120px;
+    height: 40px;
+}
+.md-header-nav__button {
+    margin: .5rem .2rem;
+}
+@media screen and (min-width: 60em) {
+    .md-search {
+        padding: .5rem 0;
+    }
+}
+.badge {
+    padding: .1rem .2rem;
+    border-radius: 4px;
+    font-size: 9pt;
+    font-weight: bolder;
+    color: #fff;
+}
+.badge-success {
+    background: #28a745;
+}
+.badge-warning {
+    background: #e8ab06;
+}
+.badge-danger {
+    background: #cf6a07;
+}
+.md-typeset .task-list-control [type=checkbox]:checked+.task-list-indicator::before {
+    background: #28a745;
+}

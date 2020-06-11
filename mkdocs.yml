@@ -1,5 +1,5 @@
 # Project info
-site_name: YouDate Documentation
+site_name: Documentation
 site_description: Documentation for YouDate script
 site_author: hauntd
 site_url: https://youdate.website/documentation
@@ -12,17 +12,20 @@ theme:
   name: 'material'
   include_search_page: false
   search_index_only: true
-  logo:
-    icon: favorite
+  logo: images/logoLight@2x.png
   palette:
     primary: indigo
     accent: pink
+
+extra_css:
+  - css/extra.css
 
 # Copyright
 copyright: "Copyright &copy; 2018 - 2020 YouDate"
 
 # Extensions
 markdown_extensions:
+  - footnotes
   - markdown.extensions.admonition
   - markdown.extensions.codehilite:
       guess_lang: false
