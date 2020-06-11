@@ -2,7 +2,7 @@
 site_name: YouDate Documentation
 site_description: Documentation for YouDate script
 site_author: hauntd
-site_url: https://youdate.hauntd.me/documentation
+site_url: https://youdate.website/documentation
 
 use_directory_urls: false
 prebuild_index: true
@@ -19,7 +19,7 @@ theme:
     accent: pink
 
 # Copyright
-copyright: "Copyright &copy; 2019 YouDate"
+copyright: "Copyright &copy; 2018 - 2020 YouDate"
 
 # Extensions
 markdown_extensions:
