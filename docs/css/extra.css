@@ -5,6 +5,7 @@
     height: 3rem;
 }
 .md-header-nav__title {
+    height: 3rem;
     line-height: 3rem;
 }
 .md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg,

@@ -1,9 +1,9 @@
-# Additional servicces
+# Additional services
 
 ## IPStack.com
 
 !!! note
-    Experimental, since v1.9.
+    Since v1.9.
 
 https://ipstack.com/
 
