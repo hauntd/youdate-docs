@@ -5,7 +5,7 @@ To install YouDate script, you need:
 - [X] Web-server: Apache 2.4+ or Nginx 1.10+
 - [X] PHP[^1]  [<span class="badge badge-danger">7.1 - 7.3</span>](https://www.php.net/supported-versions.php) 
 [<span class="badge badge-success">7.4 - 8.0</span>](https://www.php.net/supported-versions.php)
-- [X] MySQL 5.7 or higher
+- [X] MySQL <span class="badge badge-success">5.7</span> <span class="badge badge-success">8.0</span>
 - [X] PDO PHP extension (enabled by default)
 - [X] Mbstring PHP Extension
 - [X] Intl PHP Extension

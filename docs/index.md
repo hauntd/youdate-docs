@@ -6,10 +6,10 @@
 
 Core features and possibilities: 
 
-* Browse users nearby or find them in your city 
-* Encounters
 * User profiles, photos
 * Private photos
+* Browse users nearby or find them in your city 
+* Encounters
 * Public and private groups
 * Custom profile fields editor 
 * Custom sex/gender options
@@ -18,15 +18,18 @@ Core features and possibilities:
 * Messaging, attachments (photos)
 * Gifts (multiple categories support)
 * Premium features like raising up in search or incognito mode, prioritized messages
-* Payment integration (Stripe, PayPal, Fortumo, Robokassa) 
+* Payment integration (Stripe, PayPal, Robokassa) 
 * Administration area 
+* Moderators area (same as admin area, but with limitations)
 * Reports system 
 * Blocks system 
 * News system
+* Structured help page module
 * Responsive retina template
 * Plugins system (with marketplace)
 * Theme customization (create your own theme or extend from existing one)
 * RTL support (main theme) 
+* Dark mode support (main theme)
 * Languages support: English (by default), Arabic, Czech, French, German, Italian, Russian, Spanish 
 * Language editor: add your own languages in admin area
 * GDPR-related: profile data export (HTML or JSON); ability to delete data
